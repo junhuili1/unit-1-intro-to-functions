@@ -36,6 +36,10 @@ def rect(x,y):
     t.left(90)
 rect(125,100)
 
+t.penup()
+t.backward(100)
+t.pendown()
+
 def equal(x):
     t.forward(x)
     t.left(120)
