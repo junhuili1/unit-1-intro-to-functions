@@ -3,7 +3,7 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
-t.speed(1)
+t.speed(2)
 
 def message(input):
     print(input)
@@ -34,11 +34,6 @@ def rect(x,y):
     t.left(90)
     t.forward(y)
     t.left(90)
-rect(125,100)
-
-t.penup()
-t.backward(100)
-t.pendown()
 
 def equal(x):
     t.forward(x)
@@ -46,6 +41,14 @@ def equal(x):
     t.forward(x)
     t.left(120)
     t.forward(x)
-equal(90) 
+    t.left(120)
+
+rect(125,100)
+
+t.penup()
+t.backward(100)
+t.pendown()
+
+equal(90)
 
 turtle.done()
